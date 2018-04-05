@@ -738,6 +738,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-button-icon:hover {
+    cursor:  -webkit-pointer;
     cursor: pointer;
     fill: white;
     
@@ -2010,7 +2011,7 @@ body>footer p:nth-child(2){
     }
     
     #header-nav{
-        height: 133px;
+        height: 138px;
     }
     
     .cnt{
