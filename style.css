@@ -1,5 +1,3 @@
-
-
 html{
     margin: 1.5% 2% 2% 2%;
 }
@@ -1073,6 +1071,7 @@ section footer button:first-child{
 #form textarea {
     width: 97.5%;
     margin-top: 15px;
+    padding: 4px;
 }
 
 #form input[type=submit]{
@@ -1282,7 +1281,7 @@ body>footer p:nth-child(2){
     }
     
     #form {
-        left: 50px;
+        left: 40px;
         top: 160px;
     }
     
@@ -1570,7 +1569,7 @@ body>footer p:nth-child(2){
     }
     
     html{
-        margin: auto;
+        margin: 0;
     }
     
     h3{
@@ -1584,7 +1583,10 @@ body>footer p:nth-child(2){
         margin-left: auto;
         margin-right: auto;
         width: 450px;
-        height: 170px;
+    }
+    
+    #header-nav{
+        margin-top: 60px;
     }
     
     #header-logo{
@@ -1747,7 +1749,6 @@ body>footer p:nth-child(2){
     
     #head {
         width: 420px;
-        height: 170px;
     }
     
     #header-logo{
@@ -1778,6 +1779,7 @@ body>footer p:nth-child(2){
     
     #article01 p{
         width: 100%;
+        display: flex;
     }
     
     #article01 {
@@ -1893,13 +1895,14 @@ body>footer p:nth-child(2){
     
     #header-logo{
         font-size: 10px;
+        width: 330px;
     }
 }
 
 @media screen and (max-width: 408px) {
     
     #form{
-        top: 160px;
+        top: 165px;
         left: 15px;
     }
     
@@ -1963,8 +1966,7 @@ body>footer p:nth-child(2){
     }
     
     #header-logo{
-        width: 250px;
-        margin-left: 7%;
+        width: 300px;
     }
     
     #header-searching{
@@ -2017,6 +2019,12 @@ body>footer p:nth-child(2){
     .cnt{
         font-size: 10.5px;
     }
+    
+    #header-logo{
+        font-size: 63%;
+        width: 59%;
+        margin-left: 6%
+    }
 }
 
 @media screen and (max-width: 355px) {
@@ -2046,22 +2054,9 @@ body>footer p:nth-child(2){
     }
     
     #form{
-        top: 160px;
+        top: 165px;
         left: -4px;
     }
-    
-    
-    #header-logo{
-        font-size: 63%;
-        width: 59%;
-        margin-left: 6%
-    }
-    
-    #header-logo p{
-        width: 200px;
-        margin-left: 14%;
-    }
-
     
     .cnt{
         font-size: 10px;
@@ -2100,8 +2095,15 @@ body>footer p:nth-child(2){
     
     section footer button{
         width: 32.4%;
-        font-size: 95%;
+        font-size: 94%;
         height: 50px;
+        display: block;
+        float: left;
+        margin-right: 1.32%;
+    }
+    
+    section footer button:last-child{
+        margin-right: 0;
     }
     
     section footer td{
@@ -2109,7 +2111,7 @@ body>footer p:nth-child(2){
     }
     
     #header-searching{
-        margin-left: auto;
+        margin-left: 0px;
     }
     
     .right{
