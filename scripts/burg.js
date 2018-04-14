@@ -16,7 +16,6 @@ function bigmac(){
 }
 
 window.onload = function() {
-    form();
     dropdownmenu();
     switcher(); 
     bigmac();
